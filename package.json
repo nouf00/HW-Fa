@@ -1,0 +1,29 @@
+{
+  "name": "tu-js16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HW.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/HW.js | pino-colada",
+    "dev": "tsc --watch && nodemon src/HW.ts | pino-colada"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.10.0",
+    "nodemo": "^1.0.0",
+    "nodemon": "^2.0.20",
+    "pino-colada": "^2.2.2"
+    
+  },
+
+
+  "devDependencies": {  
+"@tsconfig/node16-strictest":"1.0.4",   
+  "@types/node": "18.11.9",   
+   "ts-node": "10.9.1",  
+   "typescript": "4.9.3"
+   }
+}
